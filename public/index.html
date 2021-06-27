@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <!-- bootstrap 4.3.1 -->
+    <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.min.css">
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico">
+    <!-- app -->
+    <script src="js/utils/app.js"></script>
+    <!-- XM_Plugins -->
+    <script src="js/vendor/xm_plugins.min.js"></script>
+    <!-- form.utils -->
+    <script src="js/form/form.utils.js"></script>
+    <!-- landing.tabs -->
+    <script src="js/landing/landing.tabs.js"></script>
+    <!-- SVG icons -->
+    <script src="js/utils/svg-loader.js"></script>
+
+    
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
