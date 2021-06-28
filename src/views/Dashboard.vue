@@ -2,6 +2,7 @@
 
   <section class="login">
     <div id="app">
+      <p>{{info}}</p>
       <div v-if="status">
         <div v-for="item in info" :key="item.asset_id" class="card" style="width: 18rem;" >
         <!-- <img class="card-img-top" :src="'https://media.wax.io/'+item.data.img" alt="Card image cap"> -->
